@@ -1,0 +1,17 @@
+{
+	"name": "digitalocean.js",
+	"description": "Simple cross-platform API implementation for DigitalOcean",
+	"version": "0.0.1",
+	"main": "index.js",
+	"private": "false",
+
+	"dependencies": {
+		"request": "*"
+	},
+
+	"author": {
+		"name": "Yotam Tanay",
+		"email": "yotam@paticon.com",
+		"url": "people.paticon.com/yotam"
+	}
+}
