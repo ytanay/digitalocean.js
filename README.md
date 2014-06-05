@@ -3,7 +3,7 @@ digitalocean.js
 
 A Node.js/browser API implementation for [DigitalOcean](https://developers.digitalocean.com/).
  
-# Getting Started
+## Getting Started
 Install the module via [npm](https://www.npmjs.org/package/digitalocean.js) with: `npm install digitalocean.js`
 
 ```javascript
@@ -13,10 +13,11 @@ var doa = require('digitalocean.js');
 
 ### Quick Reference:
 - [Setup](#setup)
-- [Sending a Simple Email](#sending-a-simple-email)
-- [Sending Raw HTML](#sending-raw-html)
-- [Sending a Pretty Jade Template](#sending-a-pretty-jade-template)
-- [One Last Thing](#one-last-thing)
+- [Droplets](#droplets)
+- [Images](#images)
+- [Regions](#regions)
+- [Sizes](#sizes)
+- [Events](#events)
 
 ### Setup
 Start by initializing the api. Pass your access key for DigitalOcean like so:
